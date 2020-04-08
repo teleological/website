@@ -6,3 +6,5 @@
   for = "/api/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+    Access-Control-Expose-Headers = "ETag"
+    Access-Control-Allow-Headers = "If-None-Match"
